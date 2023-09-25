@@ -9,6 +9,7 @@
     "start": "remix-serve ./build/index.js",
     "typecheck": "tsc",
     "format": "prettier . --write",
+    "lint": "prettier . --check && eslint . && tsc",
     "upgrade-interactive": "npm-check-updates --interactive"
   },
   "dependencies": {
