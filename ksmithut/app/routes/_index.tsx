@@ -25,5 +25,5 @@ export default function Index() {
   const data = useLoaderData<typeof loader>()
   const actionData = useActionData<typeof action>()
   console.log(data, actionData)
-  return <h1>Hello World</h1>
+  return <h1 className="text-3xl font-bold">Hello World</h1>
 }
